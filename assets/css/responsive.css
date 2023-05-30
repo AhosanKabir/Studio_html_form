@@ -1,0 +1,193 @@
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1449px) {}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*=============== index. html part css start ============== */
+
+    .form_title {
+        font-size: 25px;
+    }
+
+
+    /*============= studio part css start =========== */
+    .studio_logo {
+        padding-bottom: 625px;
+    }
+
+    .studio_title {
+        font-size: 64px;
+        line-height: 1.2;
+    }
+
+    .studio_title {
+        margin-top: 125px;
+    }
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    span.small_text {
+        display: none;
+    }
+    
+    .select_wrap {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .select-selected {
+        width: 100%;
+    }
+    
+    .custom-select.select_group_1 {
+        max-width: 100%;
+    }
+    
+    .form-group label {
+        font-size: 18px;
+    }
+    
+    .form-control {
+        height: 40px;
+    }
+    
+    input#fname {}
+    
+    .custom-select {
+        font-size: 16px;
+    }
+    
+    .select-selected:after {
+        top: 16px;
+        border-width: 11px;
+    }
+    
+    .form_title {
+        font-size: 18px;
+        line-height: 1.4;
+        margin-top: 38px
+    }
+    
+    .form_title br {
+        display: none;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+    
+    .form-check-input {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .form_section .form-check-label {
+        font-size: 14px;
+    }
+    
+    .form_section .form-check-label br {
+        display: none;
+    }
+    
+    .phone {
+        margin-bottom: 40px !important;
+    }
+    
+    .form_btn {
+        font-size: 24px;
+        border-width: 4px;
+    }
+    
+    .btns_group {
+        margin-top: 50px;
+    }
+    /* .body_bg {
+        scale: .9;
+        top: -75px;
+        left: 44%;
+    } */
+
+    .cancel_btn{
+        color: #000;
+        background: #eadf14;
+        padding: 11px 35px;
+    }
+    .left_img {
+        left: 0;
+        max-width: 35px;
+        top: 30px;
+    }
+    
+    .right_img {
+        right: 0px;
+        max-width: 35px;
+        top: 30px;
+    }
+    
+    .circle_img {
+        max-width: 80px;
+        top: 20px;
+    }
+    
+    .logo {
+        max-width: 275px;
+    }
+
+    .mb_30{
+        margin-bottom: 20px;
+    }
+    .form_section .form-check {
+        margin-bottom: 15px;
+    }
+
+    .logo_content {
+        padding-top: 64px;
+    }
+    .logo_text{
+        margin: 20px 0;
+    }
+
+
+
+    /* ========== studio part css start ============ */
+    .studio_logo {
+        padding-bottom: 272px;
+    }
+    
+    .studio_title {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-top: 40px;
+        margin-bottom: 57px;
+        max-width: 320px;
+        margin-inline: auto;
+    }
+
+    .studio_logo img {
+        scale: 0.9;
+    }
+    
+    .studio_line img {
+        bottom: 75px;
+    }
+
+
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}

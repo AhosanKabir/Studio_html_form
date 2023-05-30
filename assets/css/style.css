@@ -1,0 +1,395 @@
+/* Base CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #07171d;
+}
+
+body {
+  background-color: #000;
+  font-weight: 400;
+  font-family: "BUD";
+  color: #fefefe;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea {
+  outline: none !important;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  /* background: #000; */
+  /* padding: 40px 70px; */
+}
+
+section {
+  overflow: hidden;
+}
+
+/* custom font  */
+
+@font-face {
+  font-family: "BUD";
+  src: url(../fonts/BUDuospace-Regular.otf);
+}
+
+/* font-family: "BUD", sans-serif; */
+
+.form_section form {
+  max-width: 730px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.phone {
+  margin-bottom: 75px;
+}
+
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+.header_img {
+  position: relative;
+}
+
+.left_img {
+  position: absolute;
+  top: 48px;
+  left: 70px;
+}
+
+.circle_img {
+  position: absolute;
+  left: 50%;
+  top: 34px;
+  transform: translateX(-50%);
+}
+
+.right_img {
+  position: absolute;
+  right: 70px;
+  top: 48px;
+}
+
+.logo_content {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-inline: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.logo_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin: 38px 0;
+}
+
+.form-group label {
+  font-size: 40px;
+  width: max-content;
+  display: flex;
+  align-items: end;
+}
+
+.form-control {
+  height: 65px;
+}
+
+.form-check-input {
+  width: 25px;
+  height: 25px;
+  margin-right: 16px;
+}
+
+.form_section .form-check {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.form_section .form-check .form-check-input {
+  flex-shrink: 0;
+}
+
+.form_section .form-check-label {
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.small_text {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.form_title {
+  color: #eadf14;
+  text-align: center;
+  font-size: 33px;
+  line-height: 37px;
+  margin-bottom: 35px;
+  margin-top: 65px;
+}
+
+/* .body_bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translateX(-50%);
+    left: 50%;
+    min-height: 1920px;
+    object-fit: cover;
+} */
+
+/* .form_section{
+    padding-top: 438px;
+} */
+
+.btns_group {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 113px;
+}
+
+.form_btn {
+  display: block;
+  text-transform: uppercase;
+  padding: 9px 70px;
+  border: 2px solid #07171d;
+  font-size: 55px;
+  background: #fff;
+  color: #000;
+  border: 9px solid #000;
+  transition: all 0.3s;
+  /* width: max-content; */
+  /* margin-inline: auto; */
+}
+
+.form_btn:hover {
+  background: #eadf14;
+  color: #000;
+}
+
+.cancel_btn {
+  padding: 9px 80px;
+  color: #fefefe;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.cancel_btn:hover {
+  color: #eadf14;
+}
+
+.select_wrap {
+  display: flex;
+  gap: 27px;
+}
+
+.select_group_1 {
+  max-width: 253px;
+  width: 100%;
+}
+.select_group_2 {
+  width: 100%;
+}
+
+.form_section .container {
+  position: relative;
+}
+
+.footer_img img {
+  position: absolute;
+  bottom: 0px;
+  left: -2px;
+  z-index: -1;
+}
+
+/* ========== */
+
+.custom-select {
+  position: relative;
+  font-size: 33px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #fefefe;
+  color: #000 !important;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 26px;
+  right: 14px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  color: #000;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ========== */
+
+/* ************** STUDIO PARt CSS start********************** */
+
+.studio_title {
+    color: #eadf14;
+    text-align: center;
+    font-size: 80px;
+    line-height: 82px;
+    text-transform: uppercase;
+}
+
+.studio_title span{
+    display: block;
+}
+
+.studio_logo{
+    width: max-content;
+    margin-inline: auto;
+    padding-bottom: 754px;
+}
+
+.studio_title {
+    margin-top: 200px;
+    margin-bottom: 115px;
+}
+
+.studio_section .container{
+    position: relative;
+}
+
+.studio_line img {
+    position: absolute;
+    bottom: 220px;
+    width: 100%;
+    z-index: 1;
+    left: -4px;
+}
+
+.studio_footer img{
+    position: absolute;
+    bottom: 0;
+    left: -4px;
+}
